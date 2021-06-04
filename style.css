@@ -706,6 +706,7 @@ text-transform: capitalize;
         display: none;
      
     }
+ 
    #toggle:checked ~ .list {
        display:flex;
    }
@@ -735,9 +736,7 @@ text-transform: capitalize;
     html{
         font-size: 40%;
     }
-    .navbar{
-        flex-direction: column;
-    }
+ 
     .container{
         height:45rem;
     }
@@ -758,6 +757,9 @@ text-transform: capitalize;
   }
   .card_cont{
       top:42rem;
+  }
+  .about{
+      margin-top: 120rem;
   }
     
 }
