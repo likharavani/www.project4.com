@@ -112,14 +112,12 @@ html{
 .card_cont{
     position: absolute;
     top:45rem;
-   
     width:100%;
     height:30rem;
 }
 .cont{
    display: flex;
    height:30rem;
- 
    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
@@ -699,7 +697,7 @@ text-transform: capitalize;
     
     .togglearea{
         display: flex;
-        position: fixed;
+        position: sticky;
         right: 5rem;
     }
     .list{
@@ -759,7 +757,10 @@ text-transform: capitalize;
       top:42rem;
   }
   .about{
-      margin-top: 120rem;
+      margin-top: 30rem;
+  }
+  .card_cont{
+      top:43rem;
   }
     
 }
