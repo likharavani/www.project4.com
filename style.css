@@ -713,16 +713,23 @@ text-transform: capitalize;
        background-color: rgb(100, 96, 96);
        color:black;
        top:7rem;
-       left:-100px;
-       width:65rem;
-       text-align: center;
-       height:100vh;
+       left:0rem;
+       width:100%;
+    
+       height:50vh;
        transition: all 0.3s ease;
        z-index: 100;
+       
        flex-direction: column;
+       text-align:start;
    }
    .list ul li {
        margin:1rem;
+   
+   }
+   .list ul li a{
+       text-align: left;
+       font-size: 2rem;
    }
    .list ul li a:hover{
        color:darkcyan;
@@ -766,6 +773,6 @@ text-transform: capitalize;
 }
 @media only screen and (min-width:300px) and (max-width:400px){
     .card_cont{
-        top:42rem;
+        top:43rem;
     }
 }
