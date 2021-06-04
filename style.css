@@ -89,13 +89,14 @@ html{
     cursor: pointer;
     border-radius: 7px;
     position: relative;
-   
+   transition: all 0.3s ease;
     font-size: 1.2rem;
   color:white;
     border: none;
 }
 .btn:hover{
     background-color: darkcyan;
+    transform: scale(0.98);
 
 }
 .container::before{
@@ -343,6 +344,7 @@ background-color: rgb(146, 146, 219);
     text-align: center;
    display: flex;
     height:2.5rem;
+    transition: all 0.3s ease;
     cursor: pointer;
 }
 .arrow:hover{
@@ -366,6 +368,7 @@ background-color: rgb(146, 146, 219);
     align-items: center;
    
     padding:1.3rem 1rem;
+    transition: all 0.3s ease;
    
 
 }
@@ -373,6 +376,7 @@ background-color: rgb(146, 146, 219);
     background-color: rgb(196, 207, 207);
     border-radius:8px;
     border: none;
+  
   
 }
 
@@ -429,6 +433,8 @@ background-color: rgb(146, 146, 219);
     width:100%;
     position: relative;
     border-radius: 8px;
+    transition: all 0.3s ease;
+
 }
 .im img:hover{
    transform: scale(1.1);
@@ -516,10 +522,13 @@ background-color: rgb(146, 146, 219);
     padding:0.5rem;
     background-color:  rgb(4, 4, 58);
     color:white;
+    transition: all 0.3s ease;
+
 }
 .form form .btn:hover{
     background-color: rgb(125, 153, 230);
     color:darkblue;
+
 }
 .map{
   
