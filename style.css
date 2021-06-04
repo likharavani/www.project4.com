@@ -591,6 +591,18 @@ text-transform: capitalize;
     padding: 1rem;
    
 }
+@media (max-width:1400px)
+{
+    html{
+        font-size: 90%;
+    }
+}
+@media (max-width:1200px)
+{
+    html{
+        font-size: 85%;
+    }
+}
 @media (max-width:1000px)
 {
     html{
