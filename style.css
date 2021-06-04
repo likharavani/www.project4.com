@@ -760,7 +760,12 @@ text-transform: capitalize;
       margin-top: 30rem;
   }
   .card_cont{
-      top:43rem;
+      top:38rem;
   }
     
+}
+@media only screen and (min-width:300px) and (max-width:400px){
+    .card_cont{
+        top:42rem;
+    }
 }
