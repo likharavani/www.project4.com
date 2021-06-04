@@ -65,6 +65,7 @@ html{
 }
 .container h1{
     font-size: 6rem;
+    font-weight: 100;
 }
 .container p{
     font-size: 1.3rem;
@@ -73,16 +74,24 @@ html{
 .container p span{
     color:grey;
 }
+.cont1 input{
+    background-color: rgb(14, 136, 136);
+}
+.cont1 input:hover{
+    background-color: rgb(3, 3, 46);
+   border: 1px solid white;
+   
+}
 .btn{
     width:10rem;
     padding:1rem;
-    background-color: cyan;
+    background-color: rgb(4, 4, 58);
     cursor: pointer;
     border-radius: 7px;
     position: relative;
    
     font-size: 1.2rem;
-  
+  color:white;
     border: none;
 }
 .btn:hover{
@@ -148,11 +157,15 @@ margin: 1rem 0rem;
     margin-top:2rem;
     justify-content:space-around;
     align-items: center;
-    margin-left: -4.5rem;
+    margin-left: -3.6rem;
 }
 .button_text i{
     font-size: 2rem;
     color:rgb(12, 12, 59);
+}
+.button_text i:hover{
+    color:cadetblue;
+
 }
 .text a{
 
@@ -289,7 +302,7 @@ margin:0px 1rem;
     justify-content: center;
     align-items: center;
     padding:2rem;
-    background-color: rgb(206, 206, 235);
+    background-color: rgb(229, 229, 233);
     
 }
 .customer{
@@ -326,7 +339,7 @@ align-items: center;
 margin: 1rem ;
 padding: 1rem;
 border-radius:6px;
-background-color: rgb(162, 162, 235);
+background-color: rgb(146, 146, 219);
     text-align: center;
    display: flex;
     height:2.5rem;
@@ -435,7 +448,7 @@ background-color: rgb(162, 162, 235);
 .cards h2{
     font-size: 1.5rem;
     margin-top: 1rem;
-    color:darkblue;
+    color: rgb(4, 4, 58);
 }
 .cards p{
     font-size: 1.3rem;
@@ -445,7 +458,7 @@ background-color: rgb(162, 162, 235);
 .cards a{
     text-decoration: none;
     font-size: 1.3rem;
-    color:darkblue;
+    color: rgb(4, 4, 58);
 }
 #toggle{
     display: none;
@@ -501,7 +514,7 @@ background-color: rgb(162, 162, 235);
     margin:2rem;
     width:100px;
     padding:0.5rem;
-    background-color: rgb(11, 11, 59);
+    background-color:  rgb(4, 4, 58);
     color:white;
 }
 .form form .btn:hover{
