@@ -716,11 +716,11 @@ text-transform: capitalize;
        color:black;
        top:7rem;
        left:-100px;
-       width:70rem;
+       width:65rem;
+       text-align: center;
        height:100vh;
        transition: all 0.3s ease;
        z-index: 100;
-    
        flex-direction: column;
    }
    .list ul li {
