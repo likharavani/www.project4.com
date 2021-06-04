@@ -394,7 +394,7 @@ background-color: rgb(146, 146, 219);
 }
 .customer h1{
     font-size: 3rem;
-    
+
 }
 .news{
     display: flex;
@@ -699,27 +699,34 @@ text-transform: capitalize;
     
     .togglearea{
         display: flex;
+        position: fixed;
+        right: 5rem;
     }
     .list{
         display: none;
      
     }
-   #toggle:checked + .list {
+   #toggle:checked ~ .list {
        display:flex;
    }
    .list ul{
        position: absolute;
-       background-color: white;
+       background-color: rgb(100, 96, 96);
        color:black;
-       top:100px;
-       left:0px;
-       width:80%;
+       top:7rem;
+       left:-100px;
+       width:70rem;
        height:100vh;
+       transition: all 0.3s ease;
        z-index: 100;
+    
        flex-direction: column;
    }
    .list ul li {
        margin:1rem;
+   }
+   .list ul li a:hover{
+       color:darkcyan;
    }
 }
 
