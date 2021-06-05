@@ -47,7 +47,7 @@
     </div>
 
     <div class="card_cont">
-        <div class="cont" data-aos="slide-up">
+        <div class="cont" data-aos="slide-up" style="overflow-x: hidden;">
             <div class="card">
                 <i class="fa fa-plane" aria-hidden="true"></i>
                 <div class="text">
@@ -91,7 +91,7 @@
     </div>
 
     <div class="about">
-        <div class="text1" data-aos="slide-right">
+        <div class="text1" data-aos="slide-right"  style="overflow-x: hidden;">
             <p><span>MISSION</span></p>
             <h2>
                 About Us
@@ -134,7 +134,7 @@
     </div>
 
     <div class="section_flex">
-        <div class="customer" data-aos="slide-right">
+        <div class="customer" data-aos="slide-right"  style="overflow-x: hidden;">
             <p><span>TESTIMONIALS</span></p>
             <h1>Happy Customer</h1>
             <img src="face.png">
@@ -155,7 +155,7 @@
 
         </div>
 
-        <div class="choose" data-aos="slide-left">
+        <div class="choose" data-aos="slide-left"  style="overflow-x: hidden;">
             <p><span>WHY US</span></p>
             <h1>Why We Choose</h1>
             <div class="para">
@@ -333,6 +333,8 @@
           offset:300,
           duration:1000,
       });
+      AOS.refresh();
+      AOS.refreshHard();
     </script>
 </body>
 
