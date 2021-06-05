@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
     overflow-x: hidden;
+    
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&display=swap');
@@ -699,12 +700,16 @@ text-transform: capitalize;
     
     .togglearea{
         display: flex;
-        position: fixed;
         right: 5rem;
+       
     }
     .list{
         display: none;
      
+    }
+    .navbar{
+        justify-content: space-between;
+  
     }
  
    #toggle:checked ~ .list {
