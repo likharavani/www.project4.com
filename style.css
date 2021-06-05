@@ -2,9 +2,9 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
     overflow-x: hidden;
-    
+    font-family: 'Poppins', sans-serif;
+  
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&display=swap');
@@ -186,7 +186,7 @@ margin: 1rem 0rem;
 }
 .about{
  
-    margin-top: 15rem;
+    margin-top: 5rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -632,9 +632,7 @@ text-transform: capitalize;
     html{
         font-size: 80%;
     }
-    .about{
-   margin-top: 35rem;
-    }
+   
 }
 @media (max-width:800px)
 {
@@ -652,9 +650,7 @@ text-transform: capitalize;
         flex:1 1 100%;
         height:auto;
     }
- .about{
-     margin-top: 40rem;
- }
+
    
    
 }
@@ -663,9 +659,7 @@ text-transform: capitalize;
     .list ul {
         flex-direction: column;
     }
-    .about{
-        margin-top: 70rem;
-    }
+  
     .foot{
         flex-wrap: wrap;
     }
@@ -754,9 +748,7 @@ text-transform: capitalize;
     .card_cont{
         top:50rem;
     }
-    .about{
-        margin-top: 90rem;
-    }
+  
 }
 @media (max-width:300px)
 {
@@ -769,9 +761,7 @@ text-transform: capitalize;
   .card_cont{
       top:42rem;
   }
-  .about{
-      margin-top: 30rem;
-  }
+
   .card_cont{
       top:38rem;
   }
