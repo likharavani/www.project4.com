@@ -15,7 +15,7 @@ html{
     display: flex;
     justify-content: space-between;
     padding:2rem 4rem;
-    background-color: rgb(6, 6, 49);
+    background-color: rgb(0, 0, 48);
     color:white;
     align-items: center;
 }
@@ -24,6 +24,7 @@ html{
 }
 .logo h1{
     font-size: 2.5rem;
+    font-family: 'Dancing Script', cursive;
     font-weight: 100;
 }
 .list{
@@ -64,7 +65,7 @@ html{
     position: relative;
 }
 .container h1{
-    font-size: 6rem;
+    font-size: 5.4rem;
     font-weight: 100;
 }
 .container p{
@@ -75,7 +76,7 @@ html{
     color:grey;
 }
 .cont1 input{
-    background-color: rgb(14, 136, 136);
+    background-color: rgb(16, 133, 133);
 }
 .cont1 input:hover{
     background-color: rgb(3, 3, 46);
